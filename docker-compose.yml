@@ -77,7 +77,8 @@ services:
       - pktfwdr:/var/pktfwd
       - miner-storage:/var/data
       - nebra:/var/nebra
-
+    ports:
+      - "1680:1680/udp" 
   diagnostics:
     image: nebraltd/hm-diag:arm64-95860ee
     depends_on:
