@@ -59,7 +59,7 @@ services:
     expose:
       - "1681"
       - "1685"
-      ports:
+    ports:
       - "1685:1685/udp"
 
   helium-miner:
