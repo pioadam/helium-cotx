@@ -58,6 +58,7 @@ services:
       - FIRMWARE_SHORT_HASH=c2dd87a
     expose:
       - "1681"
+      - "1685"
       ports:
       - "1685:1685/udp"
 
